@@ -8,6 +8,8 @@ import {
 } from "./app/features/todoSlice";
 import { useState, useEffect } from "react";
 import "./App.css";
+import SunIcon from '/images/sun.svg';
+import MoonIcon from '/images/moon.svg';
 
 export default function App() {
   const [id, setId] = useState(null);
@@ -65,13 +67,13 @@ export default function App() {
 >
   {dark ? (
     <img
-      src="../images/sun.svg"
+      src={SunIcon}
       alt="sun"
       style={{ width: "24px", height: "24px", transition: "all 0.3s ease" }}
     />
   ) : (
     <img
-      src="../images/moon.svg"
+      src={MoonIcon}
       alt="moon"
       style={{ width: "24px", height: "24px", transition: "all 0.3s ease" }}
     />
