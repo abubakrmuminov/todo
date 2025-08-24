@@ -8,7 +8,7 @@ import {
 } from "./app/features/todoSlice";
 import { useState, useEffect } from "react";
 
-import "./App.css";
+import "./app.css";
 import SunIcon from '/images/sun.svg';
 import MoonIcon from '/images/moon.svg';
 
